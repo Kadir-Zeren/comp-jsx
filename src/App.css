@@ -17,9 +17,6 @@ header {
 }
 
 footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
   background-color: black;
   color: white;
   padding: 2rem;

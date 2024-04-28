@@ -1,4 +1,5 @@
 import "./Content.css";
+import tulip from "./img/tulip.jpg";
 
 const Content = () => {
   const parStyle = {
@@ -30,7 +31,9 @@ const Content = () => {
         alt=""
       />
 
-      <img src="./img/tulip.jpeg " alt="tulip" />
+      <img style={imgStyle} src={tulip} alt="tulip" />
+
+      <img style={imgStyle} src="./assets/flowers.jpg" alt="flowers" />
 
       <p style={parStyle}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,

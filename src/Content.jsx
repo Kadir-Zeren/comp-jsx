@@ -5,16 +5,25 @@ const Content = () => {
     textAlign: "justify",
   };
 
+  const imgStyle = {
+    borderRadius: "20px",
+    width: "400px",
+    cursor: "pointer",
+    display: "block",
+    margin: "auto",
+  };
   return (
     <main>
       <h2 style={{ color: "white", backgroundColor: "red" }}>REACT JS</h2>
       <p style={parStyle}>React is JS library</p>
 
       <img
+        style={imgStyle}
         src="https://cdn.pixabay.com/photo/2023/10/29/01/32/flamingo-8348527_640.jpg"
         alt=""
       />
       <img
+        style={imgStyle}
         src="https://cdn.pixabay.com/photo/2024/03/14/08/52/pug-8632718_1280.jpg"
         alt=""
       />

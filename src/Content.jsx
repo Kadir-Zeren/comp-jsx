@@ -1,3 +1,5 @@
+import "./Content.css";
+
 const Content = () => {
   const parStyle = {
     fontFamily: "tahoma",
@@ -27,12 +29,17 @@ const Content = () => {
         src="https://cdn.pixabay.com/photo/2024/03/14/08/52/pug-8632718_1280.jpg"
         alt=""
       />
+
+      <img src="./img/tulip.jpeg " alt="tulip" />
+
       <p style={parStyle}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
         perspiciatis!
       </p>
 
       <h4 style={parStyle}>Bu bir h4</h4>
+
+      <h3 className="content-h3">Bu bir h3 elementtir</h3>
     </main>
   );
 };
